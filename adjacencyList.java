@@ -6,7 +6,14 @@ public class adjacencyList {
 
     public adjacencyList(int vertices){
         this.vertices = vertices;
-        
+        adjList = new LinkedList[vertices];
+
+        //initialise each list in adjacency list
+        for(int i =0; i < vertices; i++){
+            
+        }
     }
+
+
     
 }
