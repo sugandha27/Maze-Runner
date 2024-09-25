@@ -10,7 +10,7 @@ public class adjacencyList {
 
         //initialise each list in adjacency list
         for(int i =0; i < vertices; i++){
-            
+            adjList[i] = new LinkedList<>();
         }
     }
 
