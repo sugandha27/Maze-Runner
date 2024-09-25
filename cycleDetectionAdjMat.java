@@ -49,4 +49,21 @@ public class cycleDetectionAdjMat{
         }
         return false;
     }
+    public static void main(String[] args) {
+        int vertices = 4;
+        cycleDetectionAdjMat graph = new cycleDetectionAdjMat(vertices);
+    
+        graph.addEdge(0, 1, 4);
+        graph.addEdge(1, 2, 5);
+        graph.addEdge(2, 3, 6);
+        graph.addEdge(3, 0, 7);
+    
+        if (graph.hasCycle()) {
+            System.out.println("The graph contains a cycle.");
+        } else {
+            System.out.println("The graph does not contain a cycle.");
+        }
+    }
+    
 }
+
