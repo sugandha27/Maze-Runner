@@ -82,6 +82,25 @@ public class MaxHeap {
         }
     }
 
+    //method to delete element in heap
+    public int delete() {
+        if (size == 0) {
+            throw new IllegalStateException("Heap is empty, nothing to delete.");
+        }
+
+        // The root element to be removed
+        int root = heap[0];
+
+        // Move the last element to the root
+        heap[0] = heap[size - 1];
+        size--; // Decrease the size
+
+        // Heapify from the root to restore max heap property
+        heapify(0);
+
+        return root; // Return the deleted root element
+    }
+
     // Swap elements at indices i and j
     private void swap(int i, int j) {
         int temp = heap[i];
