@@ -2,8 +2,6 @@ import java.util.*;
 
 public class cycleDetectionAdjList {
 
-
-
     private int vertices; // Number of vertices
     private List<List<Integer>> adjList; // Adjacency list for storing the graph
     private boolean[] visited; // Array to keep track of visited vertices
