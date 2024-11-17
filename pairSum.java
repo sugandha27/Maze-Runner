@@ -1,4 +1,5 @@
 public class pairSum {
+    
     public int pairSum(ListNode head) {
         ListNode fast = head;
         ListNode slow = head;
