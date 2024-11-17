@@ -9,3 +9,5 @@ objective : what would be minimum number of coins required for this?
 # max-product-sub-array
 
 # odd-even-linked-list
+
+# pair-sum-linked-list
