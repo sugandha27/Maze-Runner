@@ -20,3 +20,6 @@ objective : what would be minimum number of coins required for this?
 
 # house-robber
 
+# binary-search
+
+# search-rotated-sorted-array
